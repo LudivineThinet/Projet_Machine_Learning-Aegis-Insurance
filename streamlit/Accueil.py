@@ -115,11 +115,11 @@ st.html(
        aria-label="Frais médians : {format_nombre(frais_non_fumeurs)} dollars pour les non-fumeurs, {format_nombre(frais_fumeurs)} dollars pour les fumeurs">
     <div class="ae-ligne">
       <span class="ae-ligne-nom">Non-fumeurs</span>
-      <div class="ae-barre ae-barre-non-fumeur" style="width: {largeur_non_fumeurs:.1f}%">{format_nombre(frais_non_fumeurs)} $</div>
+      <div class="ae-barre ae-barre-non-fumeur" style="width: {largeur_non_fumeurs:.1f}%">{format_nombre(frais_non_fumeurs)}&nbsp;$</div>
     </div>
     <div class="ae-ligne">
       <span class="ae-ligne-nom">Fumeurs</span>
-      <div class="ae-barre ae-barre-fumeur" style="width: 100%">{format_nombre(frais_fumeurs)} $</div>
+      <div class="ae-barre ae-barre-fumeur" style="width: 100%">{format_nombre(frais_fumeurs)}&nbsp;$</div>
     </div>
   </div>
 
@@ -136,7 +136,7 @@ st.html(
     <div class="ae-chiffre-nom">assurés dans le dataset</div>
   </div>
   <div class="ae-chiffre">
-    <div class="ae-chiffre-valeur">{format_nombre(frais_medians)} $</div>
+    <div class="ae-chiffre-valeur">{format_nombre(frais_medians)}&nbsp;$</div>
     <div class="ae-chiffre-nom">de frais médicaux médians par an</div>
   </div>
   <div class="ae-chiffre">
