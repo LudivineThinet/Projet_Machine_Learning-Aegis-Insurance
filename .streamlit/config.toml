@@ -1,0 +1,7 @@
+# Thème de l'application (s'applique à toutes les pages)
+[theme]
+base = "light"
+primaryColor = "#17324D"               # bleu encre : boutons, filtres, liens
+backgroundColor = "#F4F7F5"            # fond général, légèrement vert-gris
+secondaryBackgroundColor = "#E4ECE7"   # fonds secondaires (menu, champs)
+textColor = "#1E2A33"

@@ -1,0 +1,12 @@
+# Fichiers temporaires Python
+__pycache__/
+
+# Sauvegardes automatiques de Jupyter
+.ipynb_checkpoints/
+
+# Environnement virtuel
+.venv/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
